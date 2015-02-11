@@ -5,3 +5,4 @@
 `git clone git@github.com:JackieMa000/myvim.git`
 2. Run command
 `bash setup.sh`
+3. vim as git diff view by using `git df..`
