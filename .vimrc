@@ -17,7 +17,11 @@ Bundle 'gmarik/vundle'
 
 " My Vundle config
 
-" NERD Tree A file explore plugin for vim
+" NERD Tree
 Bundle "scrooloose/nerdtree"
-
 let g:NERDTreeDirArrows=0
+let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
+
+set autochdir
+" autocmd BufEnter * silent! lcd %:p:h
+set t_Co=256
