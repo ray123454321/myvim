@@ -14,7 +14,10 @@ call vundle#rc()
 "call vundle#rc(path)
 " let Vundle manage Vundle, required
 Bundle 'gmarik/vundle'
+Bundle 'vim-pandoc/vim-pandoc'
+Bundle 'vim-pandoc/vim-pandoc-syntax'
 
+Bundle 'suan/vim-instant-markdown'
 " My Vundle config
 
 " NERD Tree
