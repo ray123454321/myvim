@@ -1,8 +1,6 @@
 ===
 ### Usage
 
-1. Clone project to local machine
-`git clone git@github.com:JackieMa000/myvim.git`
-2. Run command
+1. Run command
 `bash setup.sh`
-3. vim as git diff view by using `git df..`
+2. vim as git diff view by using `git df..`
